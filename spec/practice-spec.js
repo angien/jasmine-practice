@@ -13,12 +13,12 @@ describe("test suite", function () {
     expect(product).toBe(6);
   })
 
-it ("should true OR false = true", function () {
+  it ("should true OR false = true", function () {
     var product = practice.or(true,false);
     expect(product).toBe(true);
   })
 
-it ("should return nothing", function () {
+  it ("should return nothing", function () {
     var product = practice.nothing();
      expect(product).not.toBeDefined();
   })
